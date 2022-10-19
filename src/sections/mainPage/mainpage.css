@@ -1,0 +1,15 @@
+
+header {
+    background-image: url(../../assets/headerbackground/mainbackground.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 3rem;
+}
+
+@media screen and (max-width: 845px) {
+    header {
+        padding: 1rem;
+    }
+}
+

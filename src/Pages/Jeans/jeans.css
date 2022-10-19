@@ -1,0 +1,10 @@
+.shoppin__jeans {
+    padding: 3rem 5rem;
+    background: linear-gradient(to bottom, #033168, #ffffff);
+}
+
+@media screen and (max-width: 700px) {
+    .shoppin__jeans {
+        padding: 3rem 2rem;
+    }
+}

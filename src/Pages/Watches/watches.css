@@ -1,0 +1,10 @@
+.shopping__watch {
+    background: linear-gradient(to bottom, #000000, #ffffff);
+    padding: 3rem 5rem;
+}
+
+@media screen and (max-width: 700px) {
+    .shopping__watch {
+        padding: 3rem 2rem;
+    }
+}

@@ -1,0 +1,19 @@
+.shoppin__shoe {
+    background: linear-gradient(to bottom, #B6626C, #ffffff);
+    padding: 3rem 5rem;
+}
+
+.childProduct {
+    margin-top: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+@media screen and (max-width: 700px) {
+    .shoppin__shoe {
+        padding: 3rem 2rem;
+    }
+}

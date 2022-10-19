@@ -1,0 +1,22 @@
+.cart-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 2rem;
+    padding: 3rem 5rem;
+}
+
+.items-left {
+    font-size: 1.25rem;
+    font-weight: 700;
+    font-family: var(--font-family);
+}
+
+.arrow {
+    font-size: 30px;
+}
+.cart-h1 {
+    margin-right: auto;
+    font-size: 30px;
+    font-family: var(--font-family);
+}

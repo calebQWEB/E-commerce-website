@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+:root {
+    --font-color: #000;
+    --font-family: 'Roboto', sans-serif;
+    --body-background: #B9B5B5;
+    --shoe-background: linear-gradient(to bottom, #B6626C, #fff);
+    --watch-background: linear-gradient(to bottom, #000, #fff);
+    --jeans-background: linear-gradient(to bottom, #033168, #fff);
+    --shirt-background: linear-gradient(to bottom, #DF582E, #fff);
+}

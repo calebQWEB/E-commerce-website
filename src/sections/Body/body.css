@@ -1,0 +1,26 @@
+main {
+    background-color: var(--body-background);
+    padding: 5rem;
+}
+
+.shopping__body {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+
+@media screen and (max-width: 970px) {
+    main {
+        padding: 5rem 2rem;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .shopping__body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+}
